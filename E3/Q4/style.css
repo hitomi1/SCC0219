@@ -1,0 +1,76 @@
+*{
+    font-family:'Roboto', sans-serif; }
+body {
+    background-color: lightgrey;
+    text-decoration: none;
+}
+#img-profile  {
+    width: 150px;
+    height: 150px;
+    -webkit-user-select: none;
+    -khtml-user-select: none;s
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+.img-circle {
+    border-radius: 50%;
+    border-color: red;
+    border-style: solid;
+    
+}
+.img-circle:hover{
+    border-color: green;
+    border-style: dashed;
+    animation-delay: 15ms;
+}
+h1 {
+    color: blue;
+}
+.card {
+    background-color: white;
+    width: 26rem;
+    padding: 1rem;
+    margin-bottom: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.2); 
+    box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.2);
+}
+.text-center {
+    text-align: center;
+}
+.card .text-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.list-inline {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    padding: 1rem;
+    margin: 1rem;
+    
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+tr { 
+    text-align: justify;
+  text-justify: inter-word;
+}
+
+img {
+    width: 150px;
+    margin-right: 1rem;
+}
+.love {
+    color: red;
+}
